@@ -73,7 +73,7 @@ pub struct SubjectBase {
     pub summary: String,
     pub air_date: String,
     pub air_weekday: u8,
-    pub images: SubjectImage,
+    pub images: Option<SubjectImage>,
 }
 
 impl fmt::Display for SubjectBase {
